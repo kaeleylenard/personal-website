@@ -1,0 +1,161 @@
+html, body {
+  margin: 0px;
+  height: 100%;
+  background-color: #202020;
+}
+
+/* Animated Background */
+#vanta-background {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#vanta-background html {
+  color: white;
+  margin: auto;
+  width: 60%;
+  top: 20%;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 50%);
+}
+
+/* Header Horizontal / Stacked Columns */
+.col-sm-4, .col-sm-8 {
+  margin: auto;
+}
+
+/* Images */
+img.icon {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  opacity: 0.65;
+}
+
+img.icon:hover {
+  opacity: 1.0;
+}
+
+img.skill-icon {
+  width: 5%;
+  height: 5%;
+  border: 0;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border: 2px solid #F7A339;
+}
+
+/* Text */
+h4, p {
+  color: white;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 350%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 65px;
+}
+
+p.about-blurb {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p.course {
+  font-size: 80%;
+}
+
+p.footer{
+  font-size: 75%;
+}
+
+.footer {
+  line-height: 1px;
+}
+
+a {
+  color: #EF6351;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F7A339;
+}
+
+/* Span Effects */
+span.name-shadow{
+      text-shadow: 3px 3px 0px #EF6351,
+                  6px 6px 0px #F38375,
+                  9px 9px 0px #F7A339
+}
+
+span.brand-shadow{
+      color: white;
+      font-size: 175%;
+      font-family: Montserrat;
+      text-shadow: 1px 1px 0px #EF6351,
+                  2px 2px 0px #F38375,
+                  3px 3px 0px #F7A339
+}
+
+/* NavBar */
+.navbar {
+ min-height: 50px;
+ background-color: #202020;
+}
+
+.navbar-brand {
+ margin-left: 5px;
+ padding: 0 15px;
+ height: 50px;
+}
+
+.navbar-toggler {
+  margin-right: 5px;
+}
+
+.nav-item {
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-size: 100%;
+}
+
+hr.solid {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  border-top: 4px solid #EF6351;
+}
+
+hr.solid-2 {
+  margin-top: 0px;
+  border-top: 4px solid #F38375;
+}
+
+hr.solid-3 {
+  margin-top: 0px;
+  border-top: 4px solid #F7A339;
+}
+
+
+.timeline {
+  border-radius: 25px;
+  border: 2px solid #EF6351;
+  padding: 20px;
+  padding-bottom: 0px;
+}
