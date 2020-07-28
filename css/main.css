@@ -53,7 +53,7 @@ img {
   border: 2px solid #F7A339;
 }
 
-/* Text */
+/* H Tag */
 h4, p {
   color: white;
   font-weight: 300;
@@ -72,6 +72,7 @@ h1 {
   line-height: 65px;
 }
 
+/* P Tag */
 p.about-blurb {
   margin-left: 5%;
   margin-right: 5%;
@@ -85,10 +86,7 @@ p.footer{
   font-size: 75%;
 }
 
-.footer {
-  line-height: 1px;
-}
-
+/* A Tag */
 a {
   color: #EF6351;
 }
@@ -136,6 +134,7 @@ span.brand-shadow{
   font-size: 100%;
 }
 
+/* Horizontal Border */
 hr.solid {
   margin-top: 0px;
   margin-bottom: 2px;
@@ -152,10 +151,14 @@ hr.solid-3 {
   border-top: 4px solid #F7A339;
 }
 
-
+/* Specific Divs */
 .timeline {
   border-radius: 25px;
   border: 2px solid #EF6351;
   padding: 20px;
   padding-bottom: 0px;
+}
+
+.footer {
+  line-height: 1px;
 }
