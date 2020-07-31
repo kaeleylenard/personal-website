@@ -47,6 +47,16 @@ img.skill-icon {
   border: 0;
 }
 
+img.card-icon {
+  width: 30px;
+  height: 30px;
+  border: 0;
+}
+
+img.card-image {
+  border: 0;
+}
+
 img {
   height: 250px;
   width: 250px;
@@ -157,6 +167,19 @@ hr.solid-3 {
   border: 2px solid #EF6351;
   padding: 20px;
   padding-bottom: 0px;
+}
+
+.timeline-row, .card-deck {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card {
+  background-color: #2e2e2e;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #F7A339;
 }
 
 .footer {
