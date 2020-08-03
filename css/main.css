@@ -44,16 +44,14 @@ img.icon:hover {
 img.skill-icon {
   width: 5%;
   height: 5%;
-  border: 0;
 }
 
 img.card-icon {
   width: 30px;
   height: 30px;
-  border: 0;
 }
 
-img.card-image {
+img.card-image, img.hover-caption, img.card-icon, img.skill-icon {
   border: 0;
 }
 
@@ -82,6 +80,10 @@ h1 {
   line-height: 65px;
 }
 
+a.involvements {
+  font-weight: 800;
+}
+
 /* P Tag */
 p.about-blurb {
   margin-left: 5%;
@@ -94,6 +96,10 @@ p.course {
 
 p.footer{
   font-size: 75%;
+}
+
+div.overlay-text {
+  font-family: Montserrat;
 }
 
 /* A Tag */
@@ -169,10 +175,11 @@ hr.solid-3 {
   padding-bottom: 0px;
 }
 
-.timeline-row, .card-deck {
+.timeline-row, .card-deck{
   margin-left: 5%;
   margin-right: 5%;
 }
+
 
 .card {
   background-color: #2e2e2e;
@@ -180,6 +187,38 @@ hr.solid-3 {
 
 .card:hover {
   box-shadow: 0 0 10px #F7A339;
+}
+
+.container {
+  position: relative;
+}
+
+.container:hover .overlay {
+  height: 45%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F38375;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 90%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .footer {
