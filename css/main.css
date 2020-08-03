@@ -100,6 +100,7 @@ p.footer{
 
 div.overlay-text {
   font-family: Montserrat;
+  line-height: 110%;
 }
 
 /* A Tag */
@@ -194,7 +195,7 @@ hr.solid-3 {
 }
 
 .container:hover .overlay {
-  height: 45%;
+  height: 65%;
 }
 
 .overlay {
