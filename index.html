@@ -14,10 +14,8 @@
 
   <!-- CSS -->
   <link href="css/main.css" rel="stylesheet">
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap" rel="stylesheet">
-
   <!-- JS Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
@@ -32,16 +30,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
+          <a class="nav-link" href="#about-me">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">experience</a>
+          <a class="nav-link" href="#experience">experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">projects</a>
+          <a class="nav-link" href="#projects">projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">involvements</a>
+          <a class="nav-link" href="#involvements">involvements</a>
         </li>
       </ul>
     </div>
@@ -59,12 +57,14 @@
         <a href="mailto:kaeleylenard@gmail.com"><img src=assets/icons/email-icon.png class="icon"></a>&nbsp;&nbsp;&nbsp;
         <a href="https://www.github.com/kaeleylenard"><img src=assets/icons/github-icon.png class="icon"></a>&nbsp;&nbsp;&nbsp;
         <a href="https://www.linkedin.com/in/kaeleylenard"><img src=assets/icons/linkedin-icon.png class="icon" target="_blank"></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://open.spotify.com/user/12170931145?si=iL8RSpPsQze78HyTcaPHbA" target="_blank"><img src=assets/icons/spotify-icon.png class="icon"></a>
+        <a href="https://open.spotify.com/user/12170931145?si=iL8RSpPsQze78HyTcaPHbA" target="_blank"><img src=assets/icons/spotify-icon.png class="icon"></a>&nbsp;&nbsp;&nbsp;
+        <a href="#"><img src=assets/icons/resume-icon.png class="icon"></a>
       </div>
     </div>
   </div>
 
   <!-- Line Break btn Name Header + About Me -->
+  <section id ="about-me"></section>
   <hr class="solid">
   <hr class="solid solid-2">
   <hr class="solid solid-3"><br /><br />
@@ -116,21 +116,23 @@
 
     <!-- Line Break btn About Me and Experience -->
     <br /><br /><br />
+    <section id ="experience"></section>
     <hr class="solid">
     <hr class="solid solid-2">
     <hr class="solid solid-3"><br /><br />
 
   <center><h4> experience </h4></center><br />
+
   <!-- 2020 -->
   <div class="container-fluid experience">
     <div class="timeline-row row">
       <div class="col-sm timeline">
         <h4>fall '20</h4>
         <p class="course">
-        🖥 software design I <span style="color:#949494">(INF 121)</span> <br />
-        👩‍💻 human computer interaction <span style="color:#949494">(INF 131)</span> <br />
-        💼 project management <span style="color:#949494">(INF 151)</span> <br />
-        📡 management of IT <span style="color:#949494">(MGMT 107)</span>
+          🖥 software design I <span style="color:#949494">(INF 121)</span> <br />
+          👩‍💻 human computer interaction <span style="color:#949494">(INF 131)</span> <br />
+          💼 project management <span style="color:#949494">(INF 151)</span> <br />
+          📡 management of IT <span style="color:#949494">(MGMT 107)</span>
         <p>
       </div> &nbsp;&nbsp;&nbsp;
       <div class="col-sm timeline">
@@ -162,8 +164,8 @@
     </div>
   </div>
 
-<!-- 2019 -->
-<br />
+  <!-- 2019 -->
+  <br />
 
   <div class="container-fluid experience">
     <div class="timeline-row row">
@@ -203,8 +205,8 @@
     </div>
   </div>
 
-<!-- 2018 -->
-<br />
+  <!-- 2018 -->
+  <br />
 
   <div class="container-fluid experience">
     <div class="timeline-row row">
@@ -224,7 +226,7 @@
       </div> &nbsp;&nbsp;&nbsp;
       <div class="col-sm timeline"><h4>spring '18</h4>
       <p class = "course">
-          💯 graduated summa cum laude from canyon high<br />
+          🎓 graduated summa cum laude from canyon high<br />
           🏆 AP scholar with distinction<br />
           💬 CA state biliteracy seal for spanish
       </p>
@@ -234,6 +236,7 @@
 
   <!-- Line Break btn Experience and Projects -->
   <br /><br /><br />
+  <section id ="projects"></section>
   <hr class="solid">
   <hr class="solid solid-2">
   <hr class="solid solid-3"><br /><br />
@@ -245,6 +248,7 @@
       <div class="card-body text-center">
         <img class="card-img-top img-fluid" src="assets/projects/personal-website.jpg" style="border: 0;">
         <p class="card-text"><br /> kaeley.dev </p>
+        <!-- Project Skills -->
         <span title="HTML"><img src="assets/skills/html-icon.png" class="card-icon img-fluid"></span>
         <span title="CSS"><img src="assets/skills/css-icon.png" class="card-icon img-fluid"></span>
         <span title="JavaScript"><img src="assets/skills/javascript-icon.png" class="card-icon img-fluid"></span>
@@ -259,6 +263,7 @@
       <div class="card-body text-center">
         <img class="card-img-top img-fluid" src="assets/projects/zotsearch.jpg" style="border: 0;">
         <p class="card-text"><br /> zotsearch </p>
+        <!-- Project Skills -->
         <span title="Python"><img src="assets/skills/python-icon.png" class="card-icon img-fluid"></span>
         <span title="Flask"><img src="assets/skills/flask-icon.png" class="img-fluid" style="border: 0; height: 25px; width: 60px;"></span>
         <p class="card-text"><br />a search engine built from the ground up that handles
@@ -270,8 +275,9 @@
       <div class="card-body text-center">
         <img class="card-img-top img-fluid" src="assets/projects/chatuci.jpg" style="border: 0;">
         <p class="card-text"><br /> chatUCI </p>
+        <!-- Project Skills -->
         <span title="Swift"><img src="assets/skills/swift-icon.png" class="card-icon img-fluid"></span>
-        <span title="Ruby"><img src="assets/skills/ruby-icon.png" class="card-icon img-fluid"></span>
+        <span title="Parse"><img src="assets/skills/parse-icon.png" class="card-icon img-fluid"></span>
         <p class="card-text"><br /> a mobile application that allows students to join and
           create chat rooms for current courses offered at uc irvine. </p>
       </div>
@@ -281,6 +287,7 @@
       <div class="card-body text-center">
         <img class="card-img-top img-fluid" src="assets/projects/swift-twitter.jpg" style="border: 0;">
         <p class="card-text"><br /> homemade twitter </p>
+        <!-- Project Skills -->
         <span title="Swift"><img src="assets/skills/swift-icon.png" class="card-icon img-fluid"></span>
         <span title="Ruby"><img src="assets/skills/ruby-icon.png" class="card-icon img-fluid"></span>
         <p class="card-text"><br />a twitter client that allows users to log in and view their
@@ -294,6 +301,7 @@
 
   <!-- Line Break btn Projects and Involvements -->
   <br /><br />
+  <section id ="involvements"></section>
   <hr class="solid">
   <hr class="solid solid-2">
   <hr class="solid solid-3"><br /><br />
@@ -307,7 +315,7 @@
         <div class="overlay">
           <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">hack at uci<br /></span>
             <br /> orange county's largest 36 hour collegiate hackathon
-            <br /> logistics organizer, zothacks lead • apr 2019 - present </div>
+            <br /> logistics organizer, zothacks lead • current </div>
         </div>
       </div>
       <div class="col-sm container experience">
@@ -315,7 +323,7 @@
         <div class="overlay">
           <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">mgmt info student society (maiss)<br /></span>
             <br /> bridging the gap between technology and business
-            <br /> mentor/mentee, community development board intern • oct 2019 - present
+            <br /> mentor/mentee, community development board intern • current
           </div>
         </div>
       </div>
@@ -329,7 +337,7 @@
         <div class="overlay">
           <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">lvo dance team<br /></span>
             <br /> vietnamese student association's hip-hop dance troop (series 14)
-            <br /> rose pageant, uvsa tet festival dancer • oct 2019 - present </div>
+            <br /> rose pageant, uvsa tet festival performer • current </div>
         </div>
       </div>
       <div class="col-sm container experience">
@@ -337,7 +345,7 @@
         <div class="overlay">
           <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">canyon drumline<br /></span>
             <br /> 3x gold medalist indoor concert percussion group
-            <br /> captain, lead marimba, alumni coach • aug 2014 - sept 2018
+            <br /> captain, lead marimba, alumni coach • 2014-2018
           </div>
         </div>
       </div>
@@ -345,7 +353,7 @@
   </div>
 
 
-
+<div id="kaeley-resume"></div>
 
 <br />
 <!-- Vanta Background -->
@@ -362,9 +370,9 @@ VANTA.NET({
   scaleMobile: 1.00,
   color: 0xf7a339,
   backgroundColor: 0x202020,
-  points: 10.00,
+  points: 12.00,
   maxDistance: 18.00,
-  spacing: 20.00,
+  spacing: 19.00,
   showDots: false
 })
 </script>

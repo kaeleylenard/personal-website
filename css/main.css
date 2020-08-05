@@ -99,6 +99,7 @@ p.footer{
 }
 
 div.overlay-text {
+  font-size: 90%;
   font-family: Montserrat;
   line-height: 110%;
 }
