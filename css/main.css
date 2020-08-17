@@ -1,7 +1,7 @@
 html, body {
   margin: 0px;
   height: 100%;
-  background-color: #202020;
+  background-color: #fafafa;
 }
 
 /* Animated Background */
@@ -14,9 +14,8 @@ html, body {
 }
 
 #vanta-background html {
-  color: white;
   margin: auto;
-  width: 60%;
+  width: 75%;
   top: 20%;
   position: absolute;
   left: 50%;
@@ -34,11 +33,10 @@ img.icon {
   width: 35px;
   height: 35px;
   border: 0;
-  opacity: 0.65;
 }
 
 img.icon:hover {
-  opacity: 1.0;
+  opacity: 0.85;
 }
 
 img.skill-icon {
@@ -58,22 +56,22 @@ img.card-image, img.hover-caption, img.card-icon, img.skill-icon {
 img {
   height: 250px;
   width: 250px;
-  border: 2px solid #F7A339;
+  border: 4px solid #424242;
 }
 
 /* H Tag */
 h4, p {
-  color: white;
+  color: #202020;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
-  font-size: 100%;
+  font-size: 125%;
 }
 
 h1 {
-  color: white;
+  color: #ff9f8c;
   font-weight: 800;
   font-size: 350%;
   font-family: 'Montserrat', sans-serif;
@@ -86,8 +84,8 @@ a.involvements {
 
 /* P Tag */
 p.about-blurb {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p.course {
@@ -106,34 +104,43 @@ div.overlay-text {
 
 /* A Tag */
 a {
-  color: #EF6351;
+  color: #ff9f8c;
+}
+
+a.nav-link {
+  color: #424242 !important;
 }
 
 a:hover {
-  text-decoration: none;
-  color: #F7A339;
+  color: #ff9f8c;
+  text-decoration: underline;
 }
 
 /* Span Effects */
 span.name-shadow{
-      text-shadow: 3px 3px 0px #EF6351,
-                  6px 6px 0px #F38375,
-                  9px 9px 0px #F7A339
+      text-shadow: 2px 2px 0px #202020,
+                  4px 4px 0px #ffbeb3,
+                  6px 6px 0px #ffb678
 }
 
 span.brand-shadow{
-      color: white;
+      color: #ff9f8c;
       font-size: 175%;
       font-family: Montserrat;
-      text-shadow: 1px 1px 0px #EF6351,
-                  2px 2px 0px #F38375,
-                  3px 3px 0px #F7A339
+      text-shadow: 1px 1px 0px #202020,
+                  2px 2px 0px #ffbeb3,
+                  3px 3px 0px #ffb678
+}
+
+span.course-id{
+  color: #949494;
 }
 
 /* NavBar */
 .navbar {
  min-height: 50px;
- background-color: #202020;
+ background-color: #fafafa;
+ box-shadow: 0 5px 5px -2px #f2f2f2;
 }
 
 .navbar-brand {
@@ -156,39 +163,28 @@ span.brand-shadow{
 hr.solid {
   margin-top: 0px;
   margin-bottom: 2px;
-  border-top: 4px solid #EF6351;
+  border-top: 4px solid #ff9f8c;
 }
 
 hr.solid-2 {
   margin-top: 0px;
-  border-top: 4px solid #F38375;
+  border-top: 4px solid #ffbeb3;
 }
 
 hr.solid-3 {
   margin-top: 0px;
-  border-top: 4px solid #F7A339;
+  border-top: 4px solid #ffb678;
 }
 
 /* Specific Divs */
 .timeline {
-  border-radius: 25px;
-  border: 2px solid #EF6351;
   padding: 20px;
   padding-bottom: 0px;
 }
 
 .timeline-row, .card-deck{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-
-.card {
-  background-color: #2e2e2e;
-}
-
-.card:hover {
-  box-shadow: 0 0 10px #F7A339;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .container {
@@ -204,7 +200,7 @@ hr.solid-3 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #F38375;
+  background-color: #ff9f8c;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -212,7 +208,7 @@ hr.solid-3 {
 }
 
 .overlay-text {
-  color: white;
+  color: black;
   font-size: 90%;
   position: relative;
   top: 50%;
@@ -221,6 +217,13 @@ hr.solid-3 {
   -ms-transform: translate(-50%, 50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.overlay-text-details {
+  line-height: 200%;
+  font-size: 80%;
 }
 
 .footer {
