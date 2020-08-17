@@ -1,7 +1,9 @@
+/* Entire Page */
 html, body {
   margin: 0px;
   height: 100%;
   background-color: #fafafa;
+  scroll-behavior: smooth;
 }
 
 /* Animated Background */
@@ -29,10 +31,15 @@ html, body {
 }
 
 /* Images */
-img.icon {
+img { /* Avatar */
+  height: 250px;
+  width: 250px;
+  border: 4px solid #424242;
+}
+
+img.icon { /* Avatar */
   width: 35px;
   height: 35px;
-  border: 0;
 }
 
 img.icon:hover {
@@ -44,33 +51,24 @@ img.skill-icon {
   height: 5%;
 }
 
-img.card-icon {
+img.card-icon { /* Project Tools Used Icons */
   width: 30px;
   height: 30px;
 }
 
-img.card-image, img.hover-caption, img.card-icon, img.skill-icon {
+img.card-image, img.hover-caption, img.card-icon, img.skill-icon, img.icon {
+  /* Override avatar - responsiveness */
   border: 0;
 }
 
-img {
-  height: 250px;
-  width: 250px;
-  border: 4px solid #424242;
-}
-
-/* H Tag */
+/* Headers */
 h4, p {
   color: #202020;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
 }
 
-h4 {
-  font-size: 125%;
-}
-
-h1 {
+h1 { /* Kaeley Lenard */
   color: #ff9f8c;
   font-weight: 800;
   font-size: 350%;
@@ -78,11 +76,11 @@ h1 {
   line-height: 65px;
 }
 
-a.involvements {
-  font-weight: 800;
+h4 { /* Positions */
+  font-size: 125%;
 }
 
-/* P Tag */
+/* Paragraphs */
 p.about-blurb {
   margin-left: 10%;
   margin-right: 10%;
@@ -96,15 +94,13 @@ p.footer{
   font-size: 75%;
 }
 
-div.overlay-text {
-  font-size: 90%;
-  font-family: Montserrat;
-  line-height: 110%;
-}
-
-/* A Tag */
+/* Links */
 a {
   color: #ff9f8c;
+}
+
+a.involvements {
+  font-weight: 800;
 }
 
 a.nav-link {
@@ -178,8 +174,7 @@ hr.solid-3 {
 
 /* Specific Divs */
 .timeline {
-  padding: 20px;
-  padding-bottom: 0px;
+  padding: 0%;
 }
 
 .timeline-row, .card-deck{
@@ -210,6 +205,8 @@ hr.solid-3 {
 .overlay-text {
   color: black;
   font-size: 90%;
+  font-family: Montserrat;
+  line-height: 110%;
   position: relative;
   top: 50%;
   left: 50%;
@@ -222,7 +219,6 @@ hr.solid-3 {
 }
 
 .overlay-text-details {
-  line-height: 200%;
   font-size: 80%;
 }
 
