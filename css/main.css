@@ -222,6 +222,11 @@ hr.solid-3 {
   font-size: 80%;
 }
 
+.header {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
 .footer {
   line-height: 1px;
 }
