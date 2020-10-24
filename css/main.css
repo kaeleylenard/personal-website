@@ -7,19 +7,19 @@
   margin-top: 10px;
 }
 
-.header-image {
+.header-image, .about-image {
   width: 100%;
   height: 100%;
+}
+
+.involvement-image {
+  width: 90%;
+  height: 90%;
 }
 
 .skill-icon {
   width: 80px;
   height: 80px;
-}
-
-.about-image {
-  width: 100%;
-  height: 100%;
 }
 
 .center {
@@ -49,6 +49,15 @@ h3 {
 
 p {
   font-weight: 300;
+}
+
+a {
+  color: #FF8686;
+}
+
+a:hover{
+  color: #FFD86F;
+  text-decoration: none;
 }
 
 hr.solid {
