@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="118" height="120" viewBox="0 0 118 120">
+  <defs>
+    <filter id="KL" x="42" y="28" width="68" height="71" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-285 -134)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="66" height="66" transform="translate(285 188)" fill="#ff8686"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="88" height="87" transform="translate(315 150)" fill="#ffd86f"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="27" height="28" transform="translate(304 134)" fill="#ffd0d9"/>
+    <g transform="matrix(1, 0, 0, 1, 285, 134)" filter="url(#KL)">
+      <text id="KL-2" data-name="KL" transform="translate(43 76)" font-size="52" font-family="ProximaNova-Extrabld, Proxima Nova"><tspan x="0" y="0">KL</tspan></text>
+    </g>
+  </g>
+</svg>
