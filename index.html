@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Kaeley Lenard | Frontend Dev, UI/UX Designer </title>
+  <title> Kaeley Lenard • UI/UX Designer </title>
 
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Kaeley Lenard's Personal Website">
+  <meta name="description" content="Kaeley Lenard's Portfolio">
   <meta name="keywords" content="Kaeley, Kaeley Lenard, kaeleylenard">
 
   <!-- Styling -->
@@ -18,410 +18,49 @@
   <link href="css/main.css" rel="stylesheet">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 
-  <!-- JS Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-    <a class="navbar-brand" href="#"><span class="brand-shadow"><i> KL </i></span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"> <img src="assets/svgs/logo.svg" class="logo" alt="Website Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#about-me">About</a>
+          <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#">Involvements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#">My Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#involvements">Involvements</a>
+          <a class="nav-link" href="#">Contact Me</a>
         </li>
-      </ul>
-    </div>
   </nav>
 
-  <!-- Name Header -->
-  <div id="vanta-background" class="container-fluid">
-    <div class="row header">
-      <div class = "col-sm-4">
-        <img src= "assets/avatar.jpg" class="img-fluid avatar" style="border-radius:50%;" alt="Picture of Kaeley Lenard"><br /><br />
-      </div>
-      <div class = "col-sm-8">
-        <span class="name-shadow"><h1><i> KAELEY LENARD </i></h1></span>
-        <h4> Frontend Development • UI/UX Design </h4>
-        <a href="mailto:kaeleylenard@gmail.com"><img src=assets/icons/email-icon.png class="icon" alt="Email icon"></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.github.com/kaeleylenard"><img src=assets/icons/github-icon.png class="icon" target="_blank" alt="Github icon"></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linkedin.com/in/kaeleylenard"><img src=assets/icons/linkedin-icon.png class="icon" target="_blank" alt="LinkedIn icon"></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://open.spotify.com/user/12170931145?si=iL8RSpPsQze78HyTcaPHbA" target="_blank"><img src=assets/icons/spotify-icon.png class="icon" target="_blank" alt="Spotify icon"></a>&nbsp;&nbsp;&nbsp;
-      </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm center">
+      <h1> Kaeley <br /> Lenard </h1>
+      <hr size="5" width="100" align="left" class="solid">
+      <p> California based UI/UX Designer focused on inclusive engineering, entertainment
+        and networking, and new product development. <br />
+        Extensive experience with user research analysis, interactive UI mockups,
+        and branding and vector design.</p>
+      <button class="button">Let's Build Together</button>
+      <br /><br />
+    </div>
+    <div class="col-sm">
+      <img src="assets/svgs/kaeley-header.svg" class="header-image" alt="Image of Kaeley Lenard">
     </div>
   </div>
-
-  <!-- Line Break btn Name Header + About Me -->
-  <section id ="about-me"></section>
-  <hr class="solid" width="60%">
-  <hr class="solid solid-2" width="50%">
-  <hr class="solid solid-3" width="40%"><br /><br />
-
-  <!-- About Me -->
-  <center><h4> About Me </h4></center><br />
-  <p class="about-blurb"> 👋 Hey there, I'm Kaeley! I am a programmer and designer based
-    in sunny Orange County, California. I have been here my whole life, so I am especially
-    open to relocating to other tech hubs along the west coast, such as Santa Clara,
-    San Francisco, and Seattle. I aim to engineer innovative, user-friendly applications.</p>
-
-  <p class="about-blurb"> 📚 The University of California, Irvine <br />
-    ∙ <u>Major</u>: Informatics <br />
-    ∙ <u>Specialization</u>: Organizations and Information Technology <br />
-    ∙ <u>Minor</u>: Innovation and Entrepreneurship <br />
-    ∙ Expected to graduate in Fall 2021 and currently at senior standing<br />
-    ∙ 4x Dean's Honor List recipient<p>
-
-  <p class="about-blurb"> 💡 Aspirations <br />
-    ∙ <u>Roles</u>: UI/UX design, frontend development, applications engineering <br />
-    ∙ <u>Industries</u>: social networking, entertainment, big tech
-  <br /><br />
-
-  <!-- Skill Icons -->
-  <center><p class="about-blurb"> Programming <br />
-      <span title="Python"><img src="assets/skills/python-icon.png" class="skill-icon" alt="Python"></span>
-      <span title="Java"><img src="assets/skills/java-icon.png" class="skill-icon" alt="Java"></span>
-      <span title="HTML"><img src="assets/skills/html-icon.png" class="skill-icon" alt="HTML"></span>
-      <span title="CSS"><img src="assets/skills/css-icon.png" class="skill-icon" alt="CSS"></span>
-      <span title="JavaScript"><img src="assets/skills/javascript-icon.png" class="skill-icon" alt="JavaScript"></span>
-      <span title="Swift"><img src="assets/skills/swift-icon.png" class="skill-icon" alt="Swift"></span>
-      <span title="SQL"><img src="assets/skills/sql-icon.png" class="skill-icon" alt="SQL"></span>
-      <span title="C#"><img src="assets/skills/csharp-icon.png" class="skill-icon" alt="C#"></span>
-      <span title="Git"><img src="assets/skills/git-icon.png" class="skill-icon" alt="Git"></span></p></center>
-
-  <center><p class="about-blurb"> Environments <br />
-    <span title="PyCharm"><img src="assets/skills/pycharm-icon.png" class="skill-icon" alt="PyCharm"></span>
-    <span title="IntelliJ"><img src="assets/skills/intellij-icon.png" class="skill-icon" alt="IntelliJ"></span>
-    <span title="Eclipse"><img src="assets/skills/eclipse-icon.png" class="skill-icon" alt="Eclipse"></span>
-    <span title="Atom"><img src="assets/skills/atom-icon.png" class="skill-icon" alt="Atom"></span>
-    <span title="Android Studio"><img src="assets/skills/androidstudio-icon.png" class="skill-icon" alt="Android Studio"></span>
-    <span title="Xcode"><img src="assets/skills/xcode-icon.png" class="skill-icon" alt="Xcode"></span>
-    <span title="Visual Studio"><img src="assets/skills/visualstudio-icon.png" class="skill-icon" alt="Visual Studio"></span>
-
-  <center><p class="about-blurb"> Prototyping <br />
-    <span title="Adobe XD"><img src="assets/skills/xd-icon.png" class="skill-icon" alt="Adobe XD"></span>
-    <span title="Adobe Illustrator"><img src="assets/skills/illustrator-icon.png" class="skill-icon" alt="Adobe Illustrator"></span>
-    <span title="Figma"><img src="assets/skills/figma-icon.png" class="skill-icon" alt="Figma"></span>
-
-    <!-- Line Break btn About Me and Experience -->
-    <br /><br /><br />
-    <section id ="experience"></section>
-    <hr class="solid" width="60%">
-    <hr class="solid solid-2" width="50%">
-    <hr class="solid solid-3" width="40%"><br /><br />
-
-  <center><h4> Experience </h4></center><br />
-
-  <!-- 2020 -->
-  <div class="container-fluid experience">
-    <div class="timeline-row row">
-      <div class="col-sm timeline">
-        <h4>Fall '20</h4>
-        <p class="course">
-          🖥 Software Design I <span class="course-id">(INF121)</span> <br />
-          👩‍💻 Human Computer Interaction <span class="course-id">(INF131)</span> <br />
-          💼 Project Management <span class="course-id">(INF151)</span> <br />
-          📡 Management of IT <span class="course-id">(MGMT107)</span>
-        <p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Summer '20</h4>
-        <p class="course">
-          🤹‍♀️ Software Engineer Intern @ <a href="https://www.koder.com" target="_blank">Koder</a> <br />
-          🌐 IT Consultant @ UCI's School of Business <br />
-          🖌️ Certification in <a href="https://www.udemy.com/certificate/UC-cf972ff3-a959-477e-a12d-811eb3a5ffea/" target="_blank">Figma: UI/UX Design Training</a>
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Spring '20</h4>
-        <p class="course">
-          💻 Software Testing and QA <span class="course-id">(INF115)</span> <br />
-          🔍 Information Retrieval <span class="course-id">(CS121)</span> <br />
-          🏛 Organization of Info Systems <span class="course-id">(INF162W)</span> <br />
-          🤝 Managing Org Behavior <span class="course-id">(MGMT102)
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Winter '20</h4>
-        <p class="course">
-          ⏱ Requirements Engineering <span class="course-id">(INF113)</span><br />
-          🚀 Social Analysis of Computing <span class="course-id">(INF161)</span><br />
-          👧 Children's Learning and Media <span class="course-id">(INF164)</span><br />
-          🧧 Asian American Communities <span class="course-id">(AA52)</span><br />
-          📲 iOS Programming in Swift with <a href="https://drive.google.com/file/d/1sIA8Htvcl1baMJtXDHv5cbM7IucS3uEi/view" target="_blank">Codepath</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2019 -->
-  <br />
-
-  <div class="container-fluid experience">
-    <div class="timeline-row row">
-      <div class="col-sm timeline">
-        <h4>Fall '19</h4>
-        <p class="course">
-          💻 Programming in Java <span class="course-id">(ICS45J)</span><br />
-          🔍 World Innovations <span class="course-id">(HIST21A)</span><br />
-          💭 Contemporary Problems <span class="course-id">(PHILOS5)</span><br />
-          ✏️ Argument and Rhetoric <span class="course-id">(WRITING39C)</span><br />
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Summer '19</h4>
-        <p class="course">
-          🌐 IT Consultant @ UCI's School of Business <br />
-          📈 Certification in <a href="https://analytics.google.com/analytics/academy/certificate/FKgsYAVoTruIiabXBBNCeQ" target="_blank">Advanced Google Analytics</a>
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Spring '19</h4>
-        <p class="course">
-          📡 Internet Technologies + Society <span class="course-id">(ICS3)</span> <br />
-          💻 Intermediate Programming <span class="course-id">(ICS33)</span> <br />
-          🖥 Intro to Software Engineering <span class="course-id">(INF43)</span> <br />
-          💼 Intro to Business and Management <span class="course-id">(MGMT1)</span>
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Winter '19</h4>
-        <p class="course">
-          🧠 Boolean Algebra and Logic <span class="course-id">(ICS6B)</span> <br />
-          💻 Programming w/ Software Libraries <span class="course-id">(ICS32)</span> <br />
-          🌍 Politics around the World <span class="course-id">(POLSCI51A)</span> <br />
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2018 -->
-  <br />
-
-  <div class="container-fluid experience">
-    <div class="timeline-row row">
-      <div class="col-sm timeline">
-        <h4>Fall '18</h4>
-        <p class="course">
-          🐍 Intro to Programming in Python <span class="course-id">(ICS31)</span><br />
-          👾 Computer Games and Society <span class="course-id">(ICS60)</span><br />
-          📊 Basic Statistics <span class="course-id">(STATS7)</span>
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline">
-        <h4>Summer '18</h4>
-        <p class="course">
-          🥁 Drumline coach at Canyon High<br />
-        </p>
-      </div> &nbsp;&nbsp;&nbsp;
-      <div class="col-sm timeline"><h4>Spring '18</h4>
-      <p class = "course">
-          🎓 Graduated summa cum laude from Canyon High<br />
-          🏆 AP Scholar with Distinction<br />
-          💬 CA State Spanish biliteracy seal
-      </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Line Break btn Experience and Projects -->
-  <br /><br /><br />
-  <section id ="projects"></section>
-  <hr class="solid" width="60%">
-  <hr class="solid solid-2" width="50%">
-  <hr class="solid solid-3" width="40%"><br /><br />
-
-  <center><h4> Projects </h4></center><br />
-
-  <div class="card-deck">
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/personal-website.jpg" style="border: 0;" alt="Personal website project">
-        <p class="card-text"><br /> kaeley.dev </p>
-        <!-- Project Skills -->
-        <span title="HTML"><img src="assets/skills/html-icon.png" class="card-icon img-fluid"></span>
-        <span title="CSS"><img src="assets/skills/css-icon.png" class="card-icon img-fluid"></span>
-        <span title="JavaScript"><img src="assets/skills/javascript-icon.png" class="card-icon img-fluid"></span>
-        <span title="Bootstrap"><img src="assets/skills/bootstrap-icon.png" class="card-icon img-fluid"></span>
-        <p class="card-text"><br /> A personal resume and portfolio site made from scratch to showcase
-          my skills, experiences, and aspirations. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/zotsearch.jpg" style="border: 0;" alt="Search engine project">
-        <p class="card-text"><br /> ZotSearch </p>
-        <!-- Project Skills -->
-        <span title="Python"><img src="assets/skills/python-icon.png" class="card-icon img-fluid"></span>
-        <span title="Flask"><img src="assets/skills/flask-icon.png" class="img-fluid" style="border: 0; height: 25px; width: 60px;"></span>
-        <p class="card-text"><br />A search engine built from the ground up that handles
-          tens of thousands of UCI ICS websites, with a query response time under 300ms. </p>
-      </div>
-    </div>
-  </div>
-
-  <br />
-
-  <div class="card-deck">
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/chatuci.jpg" style="border: 0;" alt="Course chatroom project">
-        <p class="card-text"><br /> ChatUCI </p>
-        <!-- Project Skills -->
-        <span title="Swift"><img src="assets/skills/swift-icon.png" class="card-icon img-fluid"></span>
-        <span title="Parse"><img src="assets/skills/parse-icon.png" class="card-icon img-fluid"></span>
-        <p class="card-text"><br /> A mobile application that allows students to join and
-          create chat rooms for current courses offered at UC Irvine. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/swift-twitter.jpg" style="border: 0;" alt="Mock Twitter project">
-        <p class="card-text"><br /> Homemade Twitter </p>
-        <!-- Project Skills -->
-        <span title="Swift"><img src="assets/skills/swift-icon.png" class="card-icon img-fluid"></span>
-        <span title="Ruby"><img src="assets/skills/ruby-icon.png" class="card-icon img-fluid"></span>
-        <p class="card-text"><br />A Twitter client that allows users to log in and view their
-          feed and perform essential funcitonalities such as reweeting and favoriting.</p>
-      </div>
-    </div>
-  </div>
-
-  <br />
-
-  <div class="card-deck">
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/snapchat-desktop.jpg" style="border: 0;" alt="Snapchat Desktop Project">
-        <p class="card-text"><br /> Snapchat for Desktop </p>
-        <!-- Project Skills -->
-        <span title="Adobe XD"><img src="assets/skills/xd-icon.png" class="card-icon img-fluid"></span>
-        <p class="card-text"><br /> An interactive UI mockup to propose a complete desktop version of the popular photo sharing app. </p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-body text-center">
-        <img class="card-img-top img-fluid" src="assets/projects/github-clout.jpg" style="border: 0;" alt="Kaeley's Github">
-        <p class="card-text"><br /> More on Github </p>
-        <span title="Adobe XD"><img src="assets/icons/github-icon.png" class="card-icon img-fluid"></span>
-        <p class="card-text"><br /> Keep up with my current repositories and contributions <a href="https://www.github.com/kaeleylenard" target="_blank">here</a>. </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Line Break btn Projects and Involvements -->
-  <br /><br />
-  <section id ="involvements"></section>
-  <hr class="solid" width="60%">
-  <hr class="solid solid-2" width="50%">
-  <hr class="solid solid-3" width="40%"><br /><br />
-
-  <center><h4> Involvements </h4></center><br />
-
-  <div class="container-fluid">
-    <div class="timeline-row row no-gutters">
-      <div class="col-sm container">
-        <img src="assets/involvements/hack.png" class="img-fluid w-100 hover-caption">
-        <div class="overlay">
-          <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">Hack at UCI<br /></span>
-            <br /> Orange County's largest 36 hour collegiate hackathon
-            <br /><div class="overlay-text-details"> Logistics organizer, Zothacks lead • Current </div></div>
-        </div>
-      </div>
-      <div class="col-sm container experience">
-        <img src="assets/involvements/maiss.jpeg" class="img-fluid w-100 hover-caption">
-        <div class="overlay">
-          <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">MAISS<br /></span>
-            <br /> Bridging the gap between technology and business
-            <br /><div class="overlay-text-details"> Mentor/Mentee, Community Development board intern • Current</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="timeline-row row no-gutters">
-      <div class="col-sm container">
-        <img src="assets/involvements/lvo.jpeg" class="img-fluid w-100 hover-caption">
-        <div class="overlay">
-          <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">LVO Dance Team<br /></span>
-            <br /> Vietnamese Student Association's modern dance troop
-            <br /><div class="overlay-text-details"> Rose Pageant, UVSA Tet Festival • Current </div></div>
-        </div>
-      </div>
-      <div class="col-sm container experience">
-        <img src="assets/involvements/drumline.JPG" class="img-fluid w-100 hover-caption">
-        <div class="overlay">
-          <div class="overlay-text"> <span style="font-size: 140%; font-weight: 800;">Canyon Drumline<br /></span>
-            <br /> 3x gold medalist indoor concert percussion group
-            <br /><div class="overlay-text-details"> Captain, lead marimba, alumni coach • 2014-2018</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<!-- Vanta Background -->
-<script src="js/three.js"></script>
-<script src="js/vanta.net.min.js"></script>
-<script>
-VANTA.NET({
-  el: "#vanta-background",
-  mouseControls: true,
-  touchControls: true,
-  minHeight: 300.00,
-  minWidth: 3.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0xffbeb3,
-  backgroundColor: 0xfafafa,
-  points: 5.00,
-  maxDistance: 28.00,
-  spacing: 12.00,
-  showDots: false
-})
-</script>
-
-<!-- Typed Effect -->
-<script src = "../js/scroll-reveal-bts.js"></script>
-
-
-<br /><br />
-<div class="footer">
-<div id="typed-strings">
-  <p> Made with ♡ in Irvine, CA</p>
-  <p> Made with ♡️ in Anaheim, CA</p>
 </div>
-<span id="typed" style='font-family: Montserrat; font-size: 75%; line-height: 10%; color: black;'></span>
-</p>
-<p class="footer"> © 2020 Kaeley Lenard </p><br />
-</div>
-
-<script>
-var typed = new Typed('#typed', {
-   stringsElement: '#typed-strings',
-   typeSpeed: 50,
-   backSpeed: 50,
-   smartBackspace: true,
-   loop: true
- });
-
-</script>
-</body>
-</html>

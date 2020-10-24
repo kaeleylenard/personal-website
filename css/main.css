@@ -1,232 +1,54 @@
-/* Entire Page */
-html, body {
-  margin: 0px;
-  height: 100%;
-  background-color: #fafafa;
-  scroll-behavior: smooth;
-}
-
-/* Animated Background */
-#vanta-background {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#vanta-background html {
-  margin: auto;
-  width: 75%;
-  top: 20%;
-  position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 50%);
-}
-
-/* Header Horizontal / Stacked Columns */
-.col-sm-4, .col-sm-8 {
-  margin: auto;
-}
-
-/* Images */
-img { /* Avatar */
-  height: 250px;
-  width: 250px;
-  border: 4px solid #424242;
-}
-
-img.icon { /* Avatar */
-  width: 35px;
-  height: 35px;
-}
-
-img.icon:hover {
-  opacity: 0.85;
-}
-
-img.skill-icon {
-  width: 5%;
-  height: 5%;
-}
-
-img.card-icon { /* Project Tools Used Icons */
-  width: 30px;
-  height: 30px;
-}
-
-img.card-image, img.hover-caption, img.card-icon, img.skill-icon, img.icon {
-  /* Override avatar - responsiveness */
-  border: 0;
-}
-
-/* Headers */
-h4, p {
-  color: #202020;
-  font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1 { /* Kaeley Lenard */
-  color: #ff9f8c;
-  font-weight: 800;
-  font-size: 350%;
-  font-family: 'Montserrat', sans-serif;
-  line-height: 65px;
-}
-
-h4 { /* Positions */
-  font-size: 125%;
-}
-
-/* Paragraphs */
-p.about-blurb {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-p.course {
-  font-size: 80%;
-}
-
-p.footer{
-  font-size: 75%;
-}
-
-/* Links */
-a {
-  color: #ff9f8c;
-}
-
-a.involvements {
-  font-weight: 800;
-}
-
-a.nav-link {
-  color: #424242 !important;
-}
-
-a:hover {
-  color: #ff9f8c;
-  text-decoration: underline;
-}
-
-/* Span Effects */
-span.name-shadow{
-      text-shadow: 2px 2px 0px #202020,
-                  4px 4px 0px #ffbeb3,
-                  6px 6px 0px #ffb678
-}
-
-span.brand-shadow{
-      color: #ff9f8c;
-      font-size: 175%;
-      font-family: Montserrat;
-      text-shadow: 1px 1px 0px #202020,
-                  2px 2px 0px #ffbeb3,
-                  3px 3px 0px #ffb678
-}
-
-span.course-id{
-  color: #949494;
-}
-
-/* NavBar */
-.navbar {
- min-height: 50px;
- background-color: #fafafa;
- box-shadow: 0 5px 5px -2px #f2f2f2;
-}
-
-.navbar-brand {
- margin-left: 5px;
- padding: 0 15px;
- height: 50px;
-}
-
-.navbar-toggler {
-  margin-right: 5px;
-}
-
-.nav-item {
-  padding-left: 20px;
+* {
   font-family: Montserrat;
-  font-size: 100%;
 }
 
-/* Horizontal Border */
-hr.solid {
-  margin-top: 0px;
-  margin-bottom: 2px;
-  border-top: 4px solid #ff9f8c;
+.logo {
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
-hr.solid-2 {
-  margin-top: 0px;
-  border-top: 4px solid #ffbeb3;
-}
-
-hr.solid-3 {
-  margin-top: 0px;
-  border-top: 4px solid #ffb678;
-}
-
-/* Specific Divs */
-.timeline {
-  padding: 0%;
-}
-
-.timeline-row, .card-deck{
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.container {
-  position: relative;
-}
-
-.container:hover .overlay {
-  height: 65%;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #ff9f8c;
-  overflow: hidden;
+.header-image {
   width: 100%;
-  height: 0;
-  transition: .5s ease;
+  height: 100%;
 }
 
-.overlay-text {
-  color: black;
-  font-size: 90%;
+.center {
+  margin: auto;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.nav-item{
   font-family: Montserrat;
-  line-height: 110%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 50%);
-  -ms-transform: translate(-50%, 50%);
-  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 425%;
+}
+
+p {
+  font-weight: 300;
+}
+
+hr.solid {
+  border-top: 4px solid #FF8686;
+}
+
+.button {
+  background-color: #FF8686;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.overlay-text-details {
-  font-size: 80%;
-}
-
-.header {
-  margin-left: 7%;
-  margin-right: 7%;
-}
-
-.footer {
-  line-height: 1px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
