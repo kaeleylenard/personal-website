@@ -1,5 +1,5 @@
 # kaeleylenard.github.io
-My personal portfolio website to showcase my skills, experience, and aspirations as a UI/UX Designer. Currently a work in progress.
+My personal portfolio website to showcase my skills, experience, and aspirations as a UI/UX Designer.
 
 # Built With
 * HTML
@@ -7,7 +7,7 @@ My personal portfolio website to showcase my skills, experience, and aspirations
   * Bootstrap
 
 # Designed With
-* Adobe Illustrator (SVGs)
+* Adobe Illustrator (SVGs -> compressed JPGs)
 * Adobe XD (Prototyping)
  
 * Icons provided by [Icons8](https://www.icons8.com)
