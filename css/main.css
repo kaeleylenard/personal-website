@@ -2,19 +2,23 @@
   font-family: Montserrat;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   margin-left: 15px;
   margin-top: 10px;
 }
 
 .header-image, .about-image, .project-image {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .involvement-image {
-  width: 90%;
-  height: 90%;
+  max-width: 80%;
+  height: auto;
 }
 
 .skill-icon {
