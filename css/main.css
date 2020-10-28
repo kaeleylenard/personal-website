@@ -65,6 +65,11 @@ a {
   color: #FF8686;
 }
 
+a.mail:hover{
+  color: white;
+  text-decoration: none;
+}
+
 a:hover{
   color: #FFD86F;
   text-decoration: none;
