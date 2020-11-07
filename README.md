@@ -5,6 +5,8 @@ My personal portfolio website to showcase my skills, experience, and aspirations
 * HTML
 * CSS
   * Bootstrap
+* JavaScript
+  * [ZenScroll](https://zengabor.github.io/zenscroll/)
 
 # Designed With
 * Adobe Illustrator (SVGs -> compressed JPGs)
@@ -14,4 +16,4 @@ My personal portfolio website to showcase my skills, experience, and aspirations
 * Illustration at the bottom of the page is provided by [Open Doodles](https://www.opendoodles.com)
    
 # View the Site
-This site is hosted using GitHub Pages @ http://kaeleylenard.github.io and is available on all devices. I'm planning on acquiring a custom domain soon.
+This site is hosted on a custom domain @ http://kaeley.tech 
