@@ -13,7 +13,7 @@ My personal portfolio website to showcase my skills, experience, and aspirations
 * Adobe XD (Prototyping)
  
 * Icons provided by [Icons8](https://www.icons8.com)
-* Illustration at the bottom of the page is provided by [Open Doodles](https://www.opendoodles.com)
+* 3D illustrations provided by [SALY](https://www.figma.com/community/file/890095002328610853)
    
 # View the Site
 This site is hosted on a custom domain @ http://kaeley.tech 

@@ -1,5 +1,9 @@
 body, .smooth-container { scroll-behavior: smooth }
 
+body {
+  background-color: #f5f5f5;
+}
+
 * {
   font-family: Montserrat;
 }
@@ -8,14 +12,39 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, p {
+  color: #2e2e2e;
+}
+
+p.workText {
+  line-height: 1.25em;
+}
+
 .logo {
-  margin-left: 15px;
-  margin-top: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-icon{
+  width: 22px;
+  height: 22px;
+  opacity: 75%;
+}
+
+.navbar-icon:hover{
+  opacity: 100%;
 }
 
 .header-image, .about-image, .project-image {
   max-width: 100%;
   height: auto;
+}
+
+.project-image {
+  border-radius: 10px;
 }
 
 .involvement-image {
@@ -26,6 +55,14 @@ html {
 .skill-icon {
   width: 80px;
   height: 80px;
+}
+
+.work-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
 
 .contact-icon {
@@ -77,7 +114,8 @@ a.mail:hover{
 }
 
 a:hover{
-  color: #FFD86F;
+  color: #FF8686;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -97,6 +135,7 @@ hr.solid {
 .button {
   background-color: #FF8686;
   border: none;
+  border-radius: 10px;
   color: white;
   padding: 15px 32px;
   text-align: center;
